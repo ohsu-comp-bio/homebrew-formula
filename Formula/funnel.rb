@@ -3,7 +3,6 @@ class Funnel < Formula
   desc "distributed task execution toolkit"
   homepage "https://ohsu-comp-bio.github.io/funnel/"
   version "0.10.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.10.0/funnel-darwin-amd64-0.10.0.tar.gz"
