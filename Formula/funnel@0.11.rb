@@ -10,7 +10,7 @@ class FunnelAT011 < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.0-rc.4/funnel-darwin-arm64-0.11.0-rc.4.tar.gz"
-      sha256 "12a1e9ed988c576996205f087799f461123338965a2a9110ae3b351bd55d277d"
+      sha256 "0aef86f6ec67be57b303a5a27dee84ecb91fb7d8f950631c85a6c8a50d64af04"
 
       def install
         bin.install "funnel"
@@ -18,7 +18,7 @@ class FunnelAT011 < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.0-rc.4/funnel-darwin-amd64-0.11.0-rc.4.tar.gz"
-      sha256 "6951e37a1e0b8cd141dd84ee44a3671d1bd33ed66f89a27109e6723c7f924616"
+      sha256 "32d11a3cd417be22c5bec4c9295598e6b827677cee6f72b305cc19697e727ff7"
 
       def install
         bin.install "funnel"
@@ -29,7 +29,7 @@ class FunnelAT011 < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.0-rc.4/funnel-linux-arm64-0.11.0-rc.4.tar.gz"
-      sha256 "db1768b3809561624efc18e55c4416a548fb0b34cb7b4b91eabc0235bc4a89e6"
+      sha256 "dad1f335ced09878bc493f83841f447582638d37fdd25e177dedc132b93cdd66"
 
       def install
         bin.install "funnel"
@@ -37,7 +37,7 @@ class FunnelAT011 < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.0-rc.4/funnel-linux-amd64-0.11.0-rc.4.tar.gz"
-      sha256 "83dc07bf0fdc59280d4b03b7aedf3185d2bed5bd33cf8475dddf979fe578782a"
+      sha256 "a8b5c8427efb419c78c77fdd498753ef5e91e8e7348c226f24f618d6854572bd"
 
       def install
         bin.install "funnel"
