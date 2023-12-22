@@ -6,7 +6,8 @@ This repository contains the Homebrew formula for [Funnel](https://github.com/oh
 
 To install Funnel via Homebrew, run the following command in your terminal:
 
-```bash
+```sh
+brew tap ohsu-comp-bio/formula
 brew install funnel
 ```
 
