@@ -18,7 +18,7 @@ class FunnelAT0111 < Formula
     end
     on_arm do
       url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.1/funnel-darwin-arm64-0.11.1-rc.1.tar.gz"
-      sha256 "3a2662678db5fceada4826d023d08d60b72a9df0a970d933832ec2a5721365b6"
+      sha256 "63898bc0aae406d50c7424d4981e59140a2e82ebfae5af1aabb7717128a70c03"
 
       def install
         bin.install "funnel"
