@@ -5,20 +5,20 @@
 class Funnel < Formula
   desc "distributed task execution toolkit"
   homepage "https://ohsu-comp-bio.github.io/funnel/"
-  version "0.11.1-rc.2"
+  version "0.11.1-rc.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.2/funnel-darwin-amd64-0.11.1-rc.2.tar.gz"
-      sha256 "55d8ee77909b15049c5b45a7382225b24ce8da60d667f3872a5ff387f42479aa"
+      url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.3/funnel-darwin-amd64-0.11.1-rc.3.tar.gz"
+      sha256 "2dce786fb30296d4138a95ea9c3f8736e987e65e0225128c891744a6828b2f04"
 
       def install
         bin.install "funnel"
       end
     end
     on_arm do
-      url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.2/funnel-darwin-arm64-0.11.1-rc.2.tar.gz"
-      sha256 "8a834b1676a8f280761022ba37ebfacd3c2a75a1a792cb44f95f5a3c9d8f9734"
+      url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.3/funnel-darwin-arm64-0.11.1-rc.3.tar.gz"
+      sha256 "a781f06d241902061e6b1f3512960bd97d0053ef0821d81a153271dbf6a20b34"
 
       def install
         bin.install "funnel"
@@ -29,8 +29,8 @@ class Funnel < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.2/funnel-linux-amd64-0.11.1-rc.2.tar.gz"
-        sha256 "ff22f5b5574d0100ace93d9875df35520593311e5b79014ed746a11da1f06733"
+        url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.3/funnel-linux-amd64-0.11.1-rc.3.tar.gz"
+        sha256 "7de6a009e4130fae38a7cd4ff9b8348cd9666e878e316151776b7e1d5bbbfa5b"
 
         def install
           bin.install "funnel"
@@ -39,8 +39,8 @@ class Funnel < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.2/funnel-linux-arm64-0.11.1-rc.2.tar.gz"
-        sha256 "964cf877d1826b3201614594bca6204b7ae95273fac50f558c45ceb3633ca62e"
+        url "https://github.com/ohsu-comp-bio/funnel/releases/download/0.11.1-rc.3/funnel-linux-arm64-0.11.1-rc.3.tar.gz"
+        sha256 "441be4bdfbba3ff71060aa1c7f21439c313fed24b90d5ef6e498ac5a34ad597e"
 
         def install
           bin.install "funnel"
